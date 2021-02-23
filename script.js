@@ -8,7 +8,7 @@ app.set('view engine', 'handlebars');
 app.set('port', 8080);
 
 
-app.use(bodyParser.urlencoded({ extended: false }));
+// app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(bodyParser.json());
 
